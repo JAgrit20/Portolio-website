@@ -16,7 +16,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
+>
   <!--
     - google font link
   -->
@@ -178,7 +178,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Research</button>
           </li>
 
           <li class="navbar-item">
@@ -312,18 +312,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/maiga.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr Maiga Chang</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Mitacs supervisor at the Athabasca University & Also hired as a Research Assistant under VIP research group.
                   </p>
                 </div>
 
@@ -334,18 +330,16 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/gg.png" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr Gouri Ginde</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                
+                    Master's Supeprvisior at University of Calgary.
+
                   </p>
                 </div>
 
@@ -873,108 +867,54 @@
 
 
       <!--
-        - #BLOG
+        - #RESEARCH
       -->
 
-      <article class="blog" data-page="blog">
-
+      <style>
+        /* Example highlight style for the year. Adjust as needed. */
+        .highlight-year {
+          display: inline-block;
+          background-color: #ffd700; /* Gold-ish background */
+          color: #000 !important;              /* Black text for contrast */
+          padding: 0.2em 0.5em;
+          border-radius: 0.3em;
+          font-weight: 600;
+          margin-left: 0.1em;
+        }
+      </style>
+      
+      <article class="research" data-page="research">
+      
         <header>
-          <!-- Renamed "Blog" to "Research" in the title -->
           <h2 class="h2 article-title">Research</h2>
         </header>
       
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
+        <section class="research-posts">
+          <ul class="research-posts-list">
       
-            <!-- 1) Arohi: An interactive tool for estimating ROI of data analytics -->
-            <li class="blog-post-item">
-              <a href="#">
+            <!-- (1) 2025: AROhI Toolkit -->
+            <li class="research-post-item">
+              <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Yt1g0PAAAAAJ&citation_for_view=Yt1g0PAAAAAJ:UeHWp8X0CEIC">
       
-                <figure class="blog-banner-box">
-                  <!-- Keeping the same image, just changing alt text -->
-                  <img src="./assets/images/blog-1.jpg" 
-                       alt="Arohi: An interactive tool for estimating ROI of data analytics" 
+                <figure class="research-banner-box">
+                  <img src="./assets/images/blog-1.png"
+                       alt="AROhI: An Interactive Toolkit for Estimating ROI of Data Analytics"
                        loading="lazy">
                 </figure>
       
-                <div class="blog-content">
+                <div class="research-content">
       
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
                     <span class="dot"></span>
-                    <!-- Example date or year of publication -->
-                    <time datetime="2024">2024</time>
+                    <time datetime="2025" class="highlight-year">2025</time>
                   </div>
       
-                  <h3 class="h3 blog-item-title">
-                    Arohi: An interactive tool for estimating ROI of data analytics
-                  </h3>
-      
-                  <p class="blog-text">
-                    Authors: N. Zambare, J. Idoko, <strong>J. Acharya</strong>, G. Ginde |
-                    arXiv preprint arXiv:2407.13839, 
-                    <strong>2 citations</strong>
-                  </p>
-      
-                </div>
-              </a>
-            </li>
-      
-            <!-- 2) Graph Neural Network vs. Large Language Model -->
-            <li class="blog-post-item">
-              <a href="#">
-      
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" 
-                       alt="Graph Neural Network vs. Large Language Model" 
-                       loading="lazy">
-                </figure>
-      
-                <div class="blog-content">
-      
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
-                    <span class="dot"></span>
-                    <time datetime="2024">2024</time>
-                  </div>
-      
-                  <h3 class="h3 blog-item-title">
-                    Graph Neural Network vs. Large Language Model: A Comparative Analysis for Bug Report Priority and Severity Prediction
-                  </h3>
-      
-                  <p class="blog-text">
-                    Authors: <strong>J. Acharya</strong>, G. Ginde | 
-                    Proceedings of the 20th Int’l Conference on Predictive Models …,
-                    <strong>1 citation</strong>
-                  </p>
-      
-                </div>
-              </a>
-            </li>
-      
-            <!-- 3) AROhI Toolkit -->
-            <li class="blog-post-item">
-              <a href="#">
-      
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" 
-                       alt="AROhI Toolkit" 
-                       loading="lazy">
-                </figure>
-      
-                <div class="blog-content">
-      
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
-                    <span class="dot"></span>
-                    <time datetime="2025">2025</time>
-                  </div>
-      
-                  <h3 class="h3 blog-item-title">
+                  <h3 class="h3 research-item-title">
                     AROhI: An Interactive Toolkit for Estimating ROI of Data Analytics
                   </h3>
       
-                  <p class="blog-text">
+                  <p class="research-text">
                     Authors: N. Zambare, J. Idoko, <strong>J. Acharya</strong>, G. Ginde |
                     2025 IEEE 15th Annual Computing and Communication Workshop and Conference …
                   </p>
@@ -983,29 +923,63 @@
               </a>
             </li>
       
-            <!-- 4) Advances in Digital Marketing -->
-            <li class="blog-post-item">
-              <a href="#">
+
       
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" 
+            <!-- (3) 2024: Graph Neural Network vs. LLM -->
+            <li class="research-post-item">
+              <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Yt1g0PAAAAAJ&citation_for_view=Yt1g0PAAAAAJ:2osOgNQ5qMEC">
+      
+                <figure class="research-banner-box">
+                  <img src="./assets/images/gnn.png" 
+                       alt="Graph Neural Network vs. Large Language Model" 
+                       loading="lazy">
+                </figure>
+      
+                <div class="research-content">
+      
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
+                    <span class="dot"></span>
+                    <time datetime="2024" class="highlight-year">2024</time>
+                  </div>
+      
+                  <h3 class="h3 research-item-title">
+                    Graph Neural Network vs. Large Language Model: A Comparative Analysis for Bug Report Priority and Severity Prediction
+                  </h3>
+      
+                  <p class="research-text">
+                    Authors: <strong>J. Acharya</strong>, G. Ginde |
+                    Proceedings of the 20th Int'l Conference on Predictive Models …,
+                    <strong>1 citation</strong>
+                  </p>
+      
+                </div>
+              </a>
+            </li>
+      
+            <!-- (4) 2023: Advances in Digital Marketing -->
+            <li class="research-post-item">
+              <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Yt1g0PAAAAAJ&citation_for_view=Yt1g0PAAAAAJ:d1gkVwhDpl0C">
+      
+                <figure class="research-banner-box">
+                  <img src="./assets/images/link.png" 
                        alt="Advances in Digital Marketing" 
                        loading="lazy">
                 </figure>
       
-                <div class="blog-content">
+                <div class="research-content">
       
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
                     <span class="dot"></span>
-                    <time datetime="2023">2023</time>
+                    <time datetime="2023" class="highlight-year">2023</time>
                   </div>
       
-                  <h3 class="h3 blog-item-title">
+                  <h3 class="h3 research-item-title">
                     Advances in Digital Marketing: Social Networks Forecasting by Link Prediction
                   </h3>
       
-                  <p class="blog-text">
+                  <p class="research-text">
                     Authors: A. Yadav, A. Acharya, <strong>J. Acharya</strong>, P. Jain, R. Rana |
                     Empirical Economics Letters (ISSN 1681-8997) 22(2)
                   </p>
@@ -1014,60 +988,60 @@
               </a>
             </li>
       
-            <!-- 5) Systematic Review of AIS Based Trajectory Prediction Models -->
-            <li class="blog-post-item">
-              <a href="#">
+            <!-- (5) 2023: Systematic Review of AIS Based Trajectory Prediction -->
+            <li class="research-post-item">
+              <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Yt1g0PAAAAAJ&citation_for_view=Yt1g0PAAAAAJ:9yKSN-GCB0IC">
       
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" 
-                       alt="AIS Based Trajectory Prediction" 
+                <figure class="research-banner-box">
+                  <img src="./assets/images/ais.png" 
+                       alt="Systematic Review of AIS Based Trajectory Prediction Models" 
                        loading="lazy">
                 </figure>
       
-                <div class="blog-content">
+                <div class="research-content">
       
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
                     <span class="dot"></span>
-                    <time datetime="2023">2023</time>
+                    <time datetime="2023" class="highlight-year">2023</time>
                   </div>
       
-                  <h3 class="h3 blog-item-title">
+                  <h3 class="h3 research-item-title">
                     Systematic Review of AIS Based Trajectory Prediction Models
                   </h3>
       
-                  <p class="blog-text">
+                  <p class="research-text">
                     Authors: R. Garg, A.P. Kapoor, V.V. Hariya, <strong>J. Acharya</strong>, A. Mundra |
-                    2023 6th Int’l Conference on Contemporary Computing and Informatics …
+                    2023 6th Int'l Conference on Contemporary Computing and Informatics …
                   </p>
       
                 </div>
               </a>
             </li>
       
-            <!-- 6) Teaching and Leading in the Gaming Industry -->
-            <li class="blog-post-item">
-              <a href="#">
+            <!-- (6) 2023: Teaching and Leading in the Gaming Industry -->
+            <li class="research-post-item">
+              <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=Yt1g0PAAAAAJ&citation_for_view=Yt1g0PAAAAAJ:u5HHmVD_uO8C">
       
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" 
+                <figure class="research-banner-box">
+                  <img src="./assets/images/woa.png" 
                        alt="Teaching and Leading in the Gaming Industry" 
                        loading="lazy">
                 </figure>
       
-                <div class="blog-content">
+                <div class="research-content">
       
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
                     <span class="dot"></span>
-                    <time datetime="2023">2023</time>
+                    <time datetime="2023" class="highlight-year">2023</time>
                   </div>
       
-                  <h3 class="h3 blog-item-title">
+                  <h3 class="h3 research-item-title">
                     Teaching and Leading in the Gaming Industry: Past, Present, and Future – An Interview with Jerry Medeiros
                   </h3>
       
-                  <p class="blog-text">
+                  <p class="research-text">
                     Authors: H.R.M. Rao, H. Zhu, <strong>J. Acharya</strong> |
                     Bulletin of the Technical Committee on Learning Technology (ISSN: 2306-0212 …)
                   </p>
@@ -1076,31 +1050,31 @@
               </a>
             </li>
       
-            <!-- 7) FORECASTING THE STOCK MARKET -->
-            <li class="blog-post-item">
-              <a href="#">
+            <!-- (7) 2022: FORECASTING THE STOCK MARKET -->
+            <li class="research-post-item">
+              <a href="https://tbjam.org/vol58-special-issue-07/">
       
-                <figure class="blog-banner-box">
-                  <!-- Reusing blog-6 or any placeholder image for the 7th item -->
-                  <img src="./assets/images/blog-6.jpg" 
+                <figure class="research-banner-box">
+                  <!-- Reusing blog-6 or any placeholder image -->
+                  <img src="./assets/images/marjet.png" 
                        alt="Forecasting the Stock Market" 
                        loading="lazy">
                 </figure>
       
-                <div class="blog-content">
+                <div class="research-content">
       
-                  <div class="blog-meta">
-                    <p class="blog-category">Paper</p>
+                  <div class="research-meta">
+                    <p class="research-category">Paper</p>
                     <span class="dot"></span>
-                    <time datetime="2022">2022</time>
+                    <time datetime="2022" class="highlight-year">2022</time>
                   </div>
       
-                  <h3 class="h3 blog-item-title">
+                  <h3 class="h3 research-item-title">
                     FORECASTING THE STOCK MARKET
                   </h3>
       
-                  <p class="blog-text">
-                    Authors: A.A.D.P.J. Dr. Anshul Yadav, <strong>Jagrit Acharya</strong> | 
+                  <p class="research-text">
+                    Authors: A.A.D.P.J. Dr. Anshul Yadav, <strong>Jagrit Acharya</strong> |
                     MANAGER – The British Journal of Administrative Management (ISSN: 1746 – 1278 …)
                   </p>
       
@@ -1113,8 +1087,6 @@
       
       </article>
       
-
-
 
 
       <!--
